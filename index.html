@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html>
+<title>|Kip|Smith|</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6,p {font-family: "Lato", sans-serif;}
+body, html {
+  height: 100%;
+  color: rgb(230, 239, 254);
+  line-height: 1.8;
+  /* background-color: rgb(183, 250, 250); */
+  background-image: url('./assets/images/Crys 3.png');
+  background-blend-mode:color-dodge;
+  
+}
+
+/* Create a Parallax Effect */
+/* .bgimg-1, .bgimg-2, .bgimg-3 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+  background-image: url('/assets/images/Crys 3.png');
+  background-blend-mode: luminosity;
+  min-height: 100%;
+}
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+  background-image: url('./images/DSC07300 copy.jpg');
+  min-height: 400px;
+}
+
+/* Third image (Contact) */
+.bgimg-3 {
+  background-image: url("/w3images/parallax3.jpg");
+  min-height: 400px;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1600px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+    min-height: 200px;
+    -webkit-background-composite: border;
+  }
+}
+</style>
+<div>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <!-- <i class="fa fa-bars"></i> -->
+    </a>
+    <a href="#home" class="w3-bar-item w3-button">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
+    <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PORTFOLIO</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
+    <!-- <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red"> -->
+      
+      <!-- <p class="w3-center">“You begin saving the world by saving one man at a time; all else is grandiose romanticism or politics.”
+          ― Charles Bukowski</p> -->
+
+
+      <!-- <i class="fa fa-search"></i> -->
+    <!-- </a> -->
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+    <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
+    <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+    <a href="#" class="w3-bar-block w3-red w3-bar-item w3-button">SEARCH</a>
+  </div>
+</div>
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">//~Kip Smith~//<span class="w3-hide-small"></span>
+  </div>
+</div>
+
+<div class="w3-content w3-container w3-padding-2">
+
+<p class="w3-center">“You begin saving the world by saving one man at a time; all else is grandiose romanticism or politics.”
+  ― Charles Bukowski</p>
+  </div>
+
+<div class="bgimg-2 w3-display-container w3-opacity-min" id="about">
+  <div class="w3-center w3-padding-64">
+    <span class="w3-xxlarge w3-text-white w3-wide">ABOUT</span>
+  </div>
+</div>
+
+<!-- DIAMOND HERE -->
+
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-2">
+  <h3 class="w3-center">ABOUT ME</h3>
+  <p class="w3-right"><em>From Lookout Mountain, GA. Thirty four times aroud the sun. I like great websites, either eye candy, personality, how it spins, native-lly fluid and enjoyable to immerse in for a time.
+
+    I became interested in web development when I figured out how to embed a music video on myspace for my band, that was was 2006. Then I learned how to record music but more how to edit with ProTools. Engaged, figured out how to make lo-fi music videos, posters, alter pictures on my parents 90's Mac, that I had 2 GB of RAM put in and is still my champ. That was in Taylor, MS were I rented a hunting cabin,.
+    
+    nothing   through macApps and see how they bend. tinkering around, creating posters anTinkered all that time till I recently graduated from Vanderbilt's 6 month bootcamp, a full stack web development course. 
+
+    I studied creative writing under Barry Hannah. .  the home of Faulkner and that which followed. Extra time I worked with a local music producer who taught me editting which I love and drew me to seek out coding.
+    
+    As I’m learning and growing within the class I’m understanding different peoples goals and mind set. My goal is to find a balance of creation and tactic. I love leading small teams. 
+  
+    Combed threw by Vandy Bootcamp. Eager to learn and adapt. Creative in nature ready to be a team player.</em></p>
+  <!-- <p>From Lookout Mountain, GA. Thirty three four old. Love to create. That's how I got into coding.
+
+    No previous experience to Vandy's Bootcamp. I was an English major in Oxford, MS the home of Faulkner and that which followed. Extra time I worked with a local music producer who taught me editting which I love and drew me to seek out coding.
+    
+    As I’m learning and growing within the class I’m understanding different peoples goals and mind set. My goal is to find a balance of creation and tactic. I love leading small teams. 
+  
+    Combed threw by Vandy Bootcamp. Eager to learn and adapt. Creative in nature ready to be a team player.
+  </p> -->
+  <div class="w3-row">
+    <div class="w3-col m6 w3-center w3-padding-large">
+      <p><b><i class="fa fa-user w3-margin-right"></i>Kip Smith</b></p><br>
+      <img src="./assets/images/ProfilePic.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="500" height="333">
+    </div>
+
+    <!-- Hide this text on small devices -->
+    <div class="w3-col m6 w3-hide-small w3-padding-large">
+      <p class="w3-large w3-center w3-padding-16">~Site Compass~</p>
+<p>Welcome to my personal website! Here you will find my story, information, past work and contact. Thank you for your time and interest in my work.<br>---<br>I am interested in front-in web development & content creation for branding & marketing agencies.</p>
+    </div>
+  </div>
+  
+  </div>
+</div>
+
+<!-- Second Parallax Image with Portfolio Text -->
+<div class="bgimg-2 w3-display-container w3-opacity-min" id="portfolio">
+  <div class="w3-center w3-padding-64">
+    <span class="w3-xxlarge w3-text-white w3-wide">PORTFOLIO</span>
+  </div>
+</div>
+
+<!-- Container (Portfolio Section) -->
+<div class="w3-content w3-container w3-padding-3">
+  <h3 class="w3-center">MY WORK</h3>
+  <p class="w3-center"><em>Here are some of my latest projects I've collaborated on or developed.<br> Click an image to continiue</em></p><br>
+</div>
+  <!-- <table class="w3-table-all">
+    <tr>
+      <th>Memory Game</th>
+      <th>Friend Finder</th>
+      <th class="w3-center">Points</th>
+    </tr> -->
+
+
+ 
+  <div class="w3-row-padding">
+    <div class="w3-col s4">
+      <h7>Memory Game</h7>
+     <a href="https://clek.herokuapp.com/" target="_blank" class="thumbnail">
+      <img src="./assets/images/neptune.jpg" style="width:100%" class="w3-hover-opacity" alt="Crystal Timer">
+
+      <h8>GitHub Link</h8>
+      <a href="https://github.com/ramblekb/click" target="_blank" class="thumbnail"></a>
+      <p>Description: click each picture just once</p>
+
+    </div>
+
+    <div class="w3-col s4">
+      <h7>Friend Finder</h7>
+     <a href="https://yomakeamatch.herokuapp.com/" target="_blank" class="thumbnail">
+      <img src="./assets/images/jupiter.jpg" style="width:100%" class="w3-hover-opacity" alt="Crystal Timer">
+
+      <h8>GitHub Link</h8>
+      <a href="https://github.com/ramblekb/FriendFinder" target="_blank" class="thumbnail"></a>
+      <p>Description: answer a few questions, add your photo and you'll be matched with a new best friend</p>
+
+    </div>
+
+    <div class="w3-col s4">
+      <h7>Liri Bot</h7>
+     <a href="https://youtu.be/0I4sv3HhR-c" target="_blank" class="thumbnail">
+      <img src="./assets/images/mars.jpg" style="width:100%" class="w3-hover-opacity" alt="Crystal Timer">
+
+      <h8>GitHub Link</h8>
+      <a href="https://github.com/ramblekb/liri-node-app" target="_blank" class="thumbnail"></a>
+      <p>Description: Node.js app that depends on user input from the command line. This is a video walk-through</p>
+
+    </div>
+
+    <div class="w3-row-padding">
+
+
+    <div class="w3-col s4">
+      <h7>Broken Nose Records</h7>
+      <!-- <h8>Deployed App</h8> -->
+     <a href="https://github.com/ramblekb/New_Girl" target="_blank" class="thumbnail">
+      <img src="./assets/images/mercury.jpg" style="width:100%" class="w3-hover-opacity" alt="Crystal Timer">
+
+      <h8>GitHub Link</h8>
+      <a href="https://new-girl.herokuapp.com/" target="_blank" class="thumbnail"></a>
+      <p>Description: login, search, buy and trade records.</p>
+
+    </div>
+
+    <div class="w3-col w3-transparent s4"><p></p></div>
+
+
+    <!-- <div class="w3-col s3">
+      <h7>Card Game</h7>
+      <h8>Deployed App</h8>
+     <a href="https://github.com/ramblekb/CARD_GAME" target="_blank" class="thumbnail">
+      <img src="./assets/images/saturn.jpg" style="width:100%" class="w3-hover-opacity" alt="Crystal Timer">
+
+      <h8>GitHub Link</h8>
+      <a href="https://new-girl.herokuapp.com/" target="_blank" class="thumbnail"></a>
+      <p>Description: play a card game in real time with users.</p> -->
+
+    
+
+    <div class="w3-col s4">
+      <h7>Hangman for Coders</h7>
+      <!-- <h8>Deployed App</h8> -->
+     <a href="https://github.com/ramblekb/hangman" target="_blank" class="thumbnail">
+      <img src="./assets/images/Paint.png" style="width:100%" class="w3-hover-opacity" alt="Crystal Timer">
+     
+      <h8>GitHub Link</h8>
+      <a href="https://ramblekb.github.io/hangman/" target="_blank" class="thumbnail"></a>
+      <p>Description: When you open the page of this game, it will randomly select a word within its word bank that you must guess with only five mistakes. In order to make a guess, you hit one of the letter keys on your keyboard. If you are correct, it will fill in that letter at the correct spot in the word. If you are wrong, it will tell you so and lower the number of mistakes that you can make in this round of guessing the word.</p>
+    </div>
+
+
+
+
+    <!-- <div class="w3-col m3">
+      <h4></h4>
+
+      <img src="/w3images/p3.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Bear closeup">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="/w3images/p4.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Quiet ocean">
+    </div>
+  </div>
+
+  <div class="w3-row-padding w3-center w3-section">
+    <div class="w3-col m3">
+      <img src="/w3images/p5.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="/w3images/p6.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="My beloved typewriter">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="/w3images/p7.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Empty ghost train">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="/w3images/p8.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Sailing">
+    </div> -->
+    <!-- <button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">LOAD MORE</button> -->
+  </div>
+</div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+<!-- Third Parallax Image with Portfolio Text -->
+<div class="bgimg-3 w3-display-container w3-opacity-min" id="contact">
+  <div class="w3-center w3-padding-64">
+     <span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
+  </div>
+</div>
+
+<div class="w3-row-padding w3-center">
+  <!-- <div class="row"> -->
+      <div class="w3-col m6"><h3>GitHub</h3>
+        <a href="https://github.com/ramblekb" target="_blank" class="thumbnail">
+        <img src="assets/images/Crys 1.png" alt="GitHub" class="img-responsive social" height="333"></a>
+      </div>
+    
+      <div class="w3-col m6">
+        <h3>LinkedIn</h3>
+        <a href="https://www.linkedin.com/in/kip-smith-85178923/" target="_blank" class="thumbnail"><img src="assets/images/Port2.jpeg" alt="LinkedIn" class="img-responsive social" height="333"></a>
+      </div>
+      </div>
+    <!-- </div> -->
+
+<!-- Container (Contact Section) -->
+
+
+  <div class="w3-row w3-padding-32 w3-section">
+    <div class="w3-col m4 w3-container">
+      <!-- <img src="/w3images/map.jpg" class="w3-image w3-round" style="width:100%"> -->
+    </div>
+  </div>
+
+  <div class="w3-row w3-padding-32 w3-section">
+    <div class="w3-col m8 w3-panel">
+      <div class="w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker fa-fw w3-hover-text-red w3-xlarge w3-margin-right"></i> Nashville, TN<br>
+        <i class="fa fa-phone fa-fw w3-hover-text-red w3-xlarge w3-margin-right"></i> Phone: 423.667.3911<br>
+        <i class="fa fa-envelope fa-fw w3-hover-text-red w3-xlarge w3-margin-right"></i> Email: ramblekb@gmail.com<br>
+      </div>
+      <!-- <p><i class="fa fa-euro"></i> i'm an idiot wind"leave a note upon my dresser/had to arrested her/for stealing my heart/there's no place i could pick up time and complicate/all the dogs barking in this idiot wind/hold my breath turn my face blue for you/plow the words left, peel back the garden for you/ fingers like carrots in the rich ground/soil breaks life and flame to your skin:::: sister, kind dress, suppose i call you out for being bored<i class="fa fa fa-audio-description"></i> </p> -->
+      <form action="mailto:ramblekb@gmail.com" method="post" enctype="text/plain">
+        <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+          <div class="w3-half">
+            <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+          </div>
+          <div class="w3-half">
+            <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+          </div>
+        </div>
+        <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+        <button class="w3-button w3-black w3-right w3-section" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+</div>
+
+
+<!-- Footer -->
+<!-- <footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"><p>“First paycheck I get, I thought, I'm going to get myself a room near the downtown L.A. Public Library.”
+    ― Charles Bukowski</p></i>Well, it was a new town. Maybe I'd get lucky.
+    The rain stopped and the sun came out. I was in the black
+    district. Iwalked along slowly.
+    "Hey, poor white trash!"
+    I put my suitcase down. A high yellow was sitting on the
+    porch steps swinging her legs. She did look good.
+    "Hello, poor white trash!"
+    I didn't say anything. I just stood there looking at her.
+    "How'd you like a piece of ass, poor white trash?"</a>
+  <div class="w3-xlarge w3-section">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+    <p></p>
+  </div>
+
+</footer> -->
+ 
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+    }
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+    <!-- Style -->
+    <style>figure{margin:0}.tmblr-iframe{position:absolute}.tmblr-iframe.hide{display:none}.tmblr-iframe--amp-cta-button{visibility:hidden;position:fixed;bottom:10px;left:50%;transform:translateX(-50%);z-index:100}.tmblr-iframe--amp-cta-button.tmblr-iframe--loaded{visibility:visible;animation:iframe-app-cta-transition .2s ease-out}</style><link rel="stylesheet" media="screen" href="https://assets.tumblr.com/client/prod/standalone/blog-network-npf/index.build.css?_v=ef3c5f9e2bfc3b55a525701220c2a0e7">
+    <!-- <link rel="shortcut icon" href="http://media.columbiarecords.com/mgmt/tumblr/images/favicon.jpg"> -->
+    <link href="http://fonts.googleapis.com/css?family=VT323" rel="stylesheet" type="text/css">
+    <!-- <link rel="stylesheet" type="text/css" href="http://media.columbiarecords.com/mgmt/tumblr/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="http://media.columbiarecords.com/mgmt/tumblr/css/style.css"> -->
+    <style>
+  
+        #visualize { position: absolute; z-index: 0; left: 0px; top: 0px; width: 100%; height: 100%; }
+        html.lte-ie8 #visualize { display: none; }
+        #bottom-corner { position: absolute; z-index: 100; right: 10px; bottom: 10px; width: 410px; }
+        #bottom-corner .pre-order { margin-bottom: 10px; }
+        #bottom-corner .pre-order h1 { float: left; display: block; font-family: 'VT323', cursive; font-size: 30px; line-height: 25px; }
+        #bottom-corner .pre-order h2 { float: left; display: block; font-family: 'VT323', cursive; font-size: 24px; }
+        #bottom-corner .pre-order img { float: left; margin-right: 10px; }
+        #bottom-corner .pre-order a { float: left; display: block; padding: 5px 10px; background: #000; color: #FFF; text-decoration: none; font-size: 18px; width: 220px; text-align: center; margin-top: 5px; transition: color 300ms, background 300ms; -ms-transition: color 300ms, background 300ms; -moz-transition: color 300ms, background 300ms; -o-transition: color 300ms, background 300ms; -webkit-transition: color 300ms, background 300ms; }
+        #bottom-corner .pre-order a:hover { background: #FFF; color: #000; }
+        #bottom-corner .news-post { padding: 10px; border: 2px solid #000; font-size: 20px; margin-bottom: 10px; line-height: 24px; }
+        #bottom-corner .news-post a { display: inline-block; padding: 0px 8px; background: #FFF; color: #000; text-decoration: none; font-size: 16px; transition: color 300ms, background 300ms; -moz-transition: color 300ms, background 300ms; -o-transition: color 300ms, background 300ms; -webkit-transition: color 300ms, background 300ms; }
+        #bottom-corner .news-post a:hover { color: #FFF; background: #000; }
+
+        #hide { position: absolute; z-index: 100; right: 20px; top: 15px; font-family: 'VT323', cursive; font-size: 35px; color: #FFF; text-decoration: none; }
+    </style>
+
+    <!-- Analytics -->
+   
+
+<style type="text/css">.knight-rider-loader{line-height:0;white-space:nowrap;width:78px}.knight-rider-loader.small{width:39px}.knight-rider-loader.centered{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%)}.knight-rider-loader.h-centered{position:absolute;top:0;left:50%;transform:translateX(-50%)}.knight-rider-bar{display:none;width:20px;height:20px;margin:0 3px;border-radius:5px;opacity:.5;background-color:#d0d0d0}.small>.knight-rider-bar{width:10px;height:10px;margin-left:2px;margin-right:1px;border-radius:2px}.animate>.knight-rider-bar{display:inline-block;animation:knight-rider-oscillate ease-in-out .3s infinite alternate}.knight-rider-bar:first-child{animation-delay:-.2s}.knight-rider-bar:nth-child(2){animation-delay:-.1s}@keyframes knight-rider-oscillate{0%{opacity:.5;transform:scaleY(1)}to{opacity:1;transform:scaleY(1.4)}}.tmblr-iframe{position:absolute}.tmblr-iframe.hide{display:none}.tmblr-pano-lightbox-container .tmblr-iframe--pano-lightbox{z-index:8675309;position:fixed;top:0;left:0;right:0;bottom:0;width:100%;height:100%;display:none}.tmblr-pano-lightbox-container .tmblr-iframe-preloader-container{z-index:8675310;position:fixed;bottom:0;width:100%;height:100%;background:rgba(0,0,0,.92)}.tmblr-pano-lightbox-container .tmblr-pano-lightbox{display:block}.tmblr-pano-lightbox-container .tmblr-pano-lightbox--preloading{display:none}.tmblr-iframe--controls-phone-container{padding-top:43px}.tmblr-iframe--controls-phone-container .t-logo{display:none}.tmblr-iframe--controls,.tmblr-iframe--mobile-logged-in-controls{position:fixed}.tmblr-iframe--controls.iframe-controls--desktop,.tmblr-iframe--mobile-logged-in-controls.iframe-controls--desktop{top:0;right:0;width:40%;min-width:200px;height:36px;z-index:100}.tmblr-iframe--controls.iframe-controls--phone-mobile,.tmblr-iframe--mobile-logged-in-controls.iframe-controls--phone-mobile{top:0;left:0;width:100%;height:44px;padding-right:8px;z-index:10}.tmblr-iframe--controls.iframe-controls--tablet-mobile,.tmblr-iframe--mobile-logged-in-controls.iframe-controls--tablet-mobile{top:0;right:0;width:235px;height:36px;z-index:2147483646}.tmblr-iframe--desktop-logged-in-controls{position:fixed}.tmblr-iframe--desktop-logged-in-controls.iframe-controls--desktop{right:0;top:0;z-index:100}.tmblr-iframe--unified-controls{position:fixed;top:0;right:0;left:0;width:100%;height:0;z-index:100}.tmblr-iframe-compact .tmblr-iframe--unified-controls{left:auto}@media screen and (max-device-width:568px){.tmblr-iframe-overlay.tmblr-iframe-full-width .no-image:not(.avatar-hidden) #header{padding-top:140px}}.tmblr-iframe-overlay.tmblr-iframe-full-width:not(.tmblr-iframe-themed) .top-blog-header .header-image.cover.loaded:after{display:none}.tmblr-iframe-overlay.tmblr-iframe-full-width:not(.tmblr-iframe-themed) .tmblr-iframe--unified-controls{background-image:linear-gradient(180deg,rgba(0,0,0,.4) 0,transparent);padding-bottom:10px;transition:padding-bottom .1s linear}.tmblr-iframe-overlay.tmblr-iframe-full-width:not(.tmblr-iframe-themed) .tmblr-iframe--unified-controls.tmblr-iframe--below-header{padding-bottom:0}.tmblr-iframe--follow-teaser{position:fixed;bottom:0;right:0;z-index:100;display:none}.tmblr-iframe--follow-teaser.open{display:block}.tmblr-iframe--follow-teaser.sticky-ad-visible{bottom:310px}@keyframes iframe-app-cta-transition{0%{opacity:0;bottom:-2em}to{opacity:1}}@keyframes iframe-app-cta-dismiss-transition{0%{opacity:1;transform:translateY(0)}to{opacity:0;transform:translateY(2em)}}body.android,body.ios{padding-bottom:50px}.tmblr-iframe--app-cta-button{position:fixed;bottom:10px;left:50%;transform:translateX(-50%);z-index:100}.tmblr-iframe--app-cta-button.tmblr-iframe--loaded{animation:iframe-app-cta-transition .2s ease-out}body.ios .tmblr-iframe--app-cta-button{bottom:30px}.tmblr-lightbox{position:fixed;top:0;bottom:0;left:0;right:0;z-index:8675309;overflow:hidden;background-color:hsla(0,0%,7%,.92)}.tmblr-lightbox .vignette{position:absolute;width:100%;height:100%;left:0;top:0;right:0;bottom:0;z-index:8675308;background-size:100% 100%}.tmblr-lightbox .lightbox-image-container{position:absolute;z-index:8675310;cursor:pointer}.tmblr-lightbox .lightbox-image-container.single-image{cursor:default}.tmblr-lightbox .lightbox-image{border-radius:3px;box-shadow:0 4px 30px #000;border-width:0;background-color:transparent}.tmblr-lightbox .lightbox-image.hide{display:none}.tmblr-lightbox .lightbox-image.placeholder{background-color:hsla(0,0%,100%,.05)}.tmblr-lightbox .lightbox-caption{position:absolute;text-align:center;font-family:Helvetica Neue,HelveticaNeue,Helvetica,Arial,sans-serif;font-size:17px;font-weight:700;color:#fff;padding-top:20px;text-shadow:0 4px 30px #000;display:inline-block;text-rendering:optimizeLegibility}.tmblr-lightbox .lightbox-caption.hide{display:none}.hidden-body{position:relative;left:-99999px;overflow:hidden;background-color:#000}.hidden-body .show-mobile-lightbox{position:fixed;overflow:hidden;width:100%;top:0;left:0;right:0;bottom:0;z-index:8675309}.sticky-ad-wrapper{position:fixed;right:20px;bottom:-330px;border:1px solid #9da6af;border-radius:5px 0 0;background-color:#fff;z-index:100;transition:all .5s ease}.sticky-ad-wrapper .tmblr-iframe--sticky-ad{position:relative;margin-top:10px}.sticky-ad-wrapper.show{bottom:0}.sticky-ad-wrapper .ad-header{line-height:1;margin:5px;text-transform:uppercase;top:4px}.sticky-ad-wrapper .ad-footer,.sticky-ad-wrapper .ad-header{font-size:10px;text-align:center;color:#9da6af;position:relative}.sticky-ad-wrapper .ad-footer{bottom:12px;line-height:100%}.sticky-ad-wrapper .ad-footer a{color:#444;text-decoration:none;border-bottom:0}.sticky-darla-ad{position:fixed;bottom:-315px;right:20px;z-index:100;border-radius:5px 0 0;border:1px solid #9da6af;transition:all .5s ease;padding:10px}.sticky-darla-ad.show{bottom:0}.sticky-darla-ad .ad-close-btn{position:relative;font-weight:900;margin-left:auto;margin-right:-11px;margin-top:-26px;cursor:pointer;width:20px;height:15px;text-align:center;border-radius:5px 5px 0 0;font-size:12px;line-height:1.5;border-top:1px solid #9da6af;border-left:1px solid #9da6af;border-right:1px solid #9da6af}.sticky-darla-ad .ad-close-btn .icon-x{display:none;position:relative;font-size:12px;content:"\D7";color:#9da6af}.sticky-darla-ad .ad-footer{font-size:10px;line-height:1;text-align:center;color:#9da6af}.sticky-darla-ad .ad-footer a{color:#444;padding-left:5px;border-bottom:0;text-decoration:none}.sticky-darla-ad .ad-header{font-size:10px;line-height:1;text-align:center;margin:5px;text-transform:uppercase;color:#9da6af}.nu-optica-sticky-darla-ad{display:none;z-index:100;transition:all .5s ease}.nu-optica-sticky-darla-ad.show{display:block}.nu-optica-sticky-darla-ad.fixed{position:fixed;margin-top:0}.nu-optica-sticky-darla-ad.parked{position:absolute;margin-top:0}.nu-optica-sticky-darla-ad .ad-header{font-size:10px;text-align:center;margin:5px;text-transform:uppercase;color:#9da6af}.nu-optica-sticky-darla-ad .ad-footer,.nu-optica-sticky-darla-ad .ad-header{line-height:1;text-align:left;font-size:12px;font-weight:700}.nu-optica-sticky-darla-ad .ad-footer a{padding-left:5px;border-bottom:0;text-decoration:none}.nu-optica-sticky-darla-ad .ad-footer a:after{content:"\276F";padding-left:4px}.tmblr-iframe--init{width:0;height:0;opacity:0;z-index:-1;pointer-events:none}</style><style type="text/css">.live-photo {
+position: relative;
+overflow: hidden;
+cursor: pointer; }
+.live-photo video,
+.live-photo img {
+display: block;
+max-width: 100%;
+pointer-events: none;
+-ms-touch-action: none;
+    touch-action: none; }
+.live-photo video {
+position: absolute;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+width: 100%;
+height: 100%; }
+.live-photo video::-webkit-media-controls-start-playback-button {
+  display: none; }
+.live-photo .live-photo-icon {
+display: block;
+position: absolute;
+top: 12px;
+left: 12px;
+width: 24px;
+height: 24px;
+/* background: url("data:image/svg+xml;charset=utf-8,%3Csvg width='48' height='48' viewBox='0 0 48 48' xmlns='http://www.w3.org/2000/svg' fill='%23fff'%3E%3Ctitle%3ELive Photo%3C/title%3E%3Cg fill-rule='evenodd'%3E%3Cpath d='M24 36c6.627 0 12-5.373 12-12s-5.373-12-12-12-12 5.373-12 12 5.373 12 12 12zm0-2c5.523 0 10-4.477 10-10s-4.477-10-10-10-10 4.477-10 10 4.477 10 10 10z'/%3E%3Cpath d='M24 29a5 5 0 1 0 0-10 5 5 0 0 0 0 10zm0-3a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm0-19a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm4.788.63a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm4.462 1.85a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm3.831 2.94a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm2.94 3.831a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm1.849 4.462a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm.63 4.788a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm-.63 4.788a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm-1.85 4.461a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm-2.94 3.831a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm-3.831 2.94a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm-4.462 1.849a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM24 44a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm-4.788-.63a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm-4.462-1.85a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm-3.831-2.94a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm-2.94-3.831a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM6.13 30.288a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM5.5 25.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm.63-4.788a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm1.85-4.462a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm2.94-3.831a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm3.831-2.94a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm4.462-1.849a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z'/%3E%3C/g%3E%3C/svg%3E") center center; */
+background-size: contain;
+-webkit-filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.5));
+        filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.5));
+pointer-events: none; }
+.live-photo .live-photo-postroll,
+.live-photo .live-photo-video {
+opacity: 0; }
+.live-photo .live-photo-video {
+-webkit-filter: blur(7.5px);
+        filter: blur(7.5px); }
+.live-photo .live-photo-keyframe,
+.live-photo .live-photo-postroll,
+.live-photo .live-photo-video {
+will-change: transform, filter, opacity;
+transition: opacity 0.5s linear, -webkit-transform 0.5s ease-out, -webkit-filter 0.5s linear;
+transition: transform 0.5s ease-out, filter 0.5s linear, opacity 0.5s linear;
+transition: transform 0.5s ease-out, filter 0.5s linear, opacity 0.5s linear, -webkit-transform 0.5s ease-out, -webkit-filter 0.5s linear; }
+.live-photo.loading .live-photo-icon {
+-webkit-animation: live-photo-icon-loading 0.5s linear alternate infinite both;
+        animation: live-photo-icon-loading 0.5s linear alternate infinite both; }
+.live-photo.preview .live-photo-postroll {
+opacity: 1;
+transition-duration: 0s; }
+.live-photo.active video,
+.live-photo.active img {
+-webkit-transform: scale(1.075, 1.075);
+    -ms-transform: scale(1.075, 1.075);
+        transform: scale(1.075, 1.075); }
+.live-photo.active .live-photo-postroll {
+-webkit-animation: live-photo-post-roll 1s both;
+        animation: live-photo-post-roll 1s both; }
+.live-photo.active .live-photo-video {
+opacity: 1;
+-webkit-filter: none;
+        filter: none;
+transition-delay: 0.375s;
+transition-duration: 0.625s; }
+
+@-webkit-keyframes live-photo-icon-loading {
+0% {
+opacity: 1; }
+100% {
+opacity: 0.75; } }
+
+@keyframes live-photo-icon-loading {
+0% {
+opacity: 1; }
+100% {
+opacity: 0.75; } }
+
+@-webkit-keyframes live-photo-post-roll {
+0% {
+opacity: 0;
+-webkit-filter: blur(0);
+        filter: blur(0); }
+2% {
+opacity: 1; }
+37.5% {
+opacity: 1;
+-webkit-filter: blur(7.5px);
+        filter: blur(7.5px); }
+100% {
+opacity: 0; } }
+
+@keyframes live-photo-post-roll {
+0% {
+opacity: 0;
+-webkit-filter: blur(0);
+        filter: blur(0); }
+2% {
+opacity: 1; }
+37.5% {
+opacity: 1;
+-webkit-filter: blur(7.5px);
+        filter: blur(7.5px); }
+100% {
+opacity: 0; } }
+</style></head>
+<body>
+
+<!-- <div class="ui_dialog_lock" style="display: none;"></div> -->
+
+    <div id="background"></div>
+    
+    <!-- <a id="mgmt" href="http://whoismgmt.com/visualize/"><img src="http://media.columbiarecords.com/mgmt/tumblr/images/mgmt.png"></a> -->
+<!-- 
+    <div id="container">
+
+        <div id="navigation">
+            <a class="blog" href="http://whoismgmt.com/#/blog/">Blog</a>
+            <a class="music" href="http://whoismgmt.com/tagged/music/">Music</a>
+            <a class="video" href="http://whoismgmt.com/tagged/video/">Video</a>
+            <a href="http://crowdsurge.com/MGMT/" target="_blank">Events</a>
+            <a href="http://mgmtforum.com/" target="_blank">Forum</a>
+            <a href="http://www.smarturl.it/mgmtmerch" target="_blank">Merch</a>
+            <a href="http://whoismgmt.com/newsletter-signup/">Newsletter</a>
+        </div>
+
+    </div> -->
+
+
+    <!-- <iframe frameborder="0" height="100%" id="visualize" scrolling="no" src="http://media.columbiarecords.com/mgmt/tumblr/visualize/" width="100%"></iframe>  -->
+
+    <!-- <iframe frameborder="0" height="100%" id="visualize" scrolling="no" src="" width="100%"></iframe> -->
+
+   
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>
+        $('#visualize').focus();
+        $('#visualize').click(function() {
+            $('#visualize').focus();
+        });
+        $('#hide').click(function() {
+            $('#bottom-corner, #navigation, #mgmt').fadeToggle(1000);
+            $('#visualize').focus();
+            return false;
+        });
+    </script>
+
+
+<script type="text/javascript"></script>
+
+
+</body>
+</html>

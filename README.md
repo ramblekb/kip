@@ -1,2 +1,3 @@
-# kip
-Kip Smith's Portfolio
+# KBS-Portfolio
+
+https://ramblekb.github.io/KipSmithPortfolio/
